@@ -1,0 +1,78 @@
+.container {
+  padding: 100px 50px 50px 50px;
+}
+.squareContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.square {
+  width: 30px;
+  height: 30px;
+  background: #e31e3c;
+  display: flex;
+  transition: all ease-in-out 0.3s;
+}
+
+.square:hover {
+  border-radius: 50%;
+  transform: scale(1.8);
+}
+
+.right {
+  position: relative;
+  transition: transform ease-in-out 0.3s;
+}
+
+.right:hover .arrow {
+  transform: translateX(8px);
+}
+
+
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  position: absolute;
+  top: 0%;
+  bottom: 100%;
+  left: 100%;
+  transition: transform ease-in-out 0.3s;
+}
+
+.link {
+  font-size: 2em;
+  color: #fefefe;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: transform ease-in-out 0.4s;
+}
+
+
+
+.link:hover {
+  transform: translateX(4px);
+}
+
+
+@media print, screen and (max-width: 39.99875em) {
+  .container {
+    padding: 32px 25px 0px 25px;
+    
+  }
+
+  .squareContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+}

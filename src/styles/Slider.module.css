@@ -1,0 +1,38 @@
+.container {
+  border-radius: 50px;
+}
+
+.sliderBox {
+  width: auto;
+  padding: 0 105px;
+  display: flex;
+}
+
+.img {
+  width: 100%;
+  height: 94em;
+
+  object-fit: cover;
+
+  border-radius: 10px;
+  transition: all ease-in-out 0.4s;
+  cursor: pointer;
+}
+
+.img:hover {
+  transform: scale(0.98);
+}
+
+@media print, screen and (max-width: 39.99875em) {
+  .sliderBox {
+    padding: 0;
+    border-radius: 0px;
+  }
+
+  .img {
+    border-radius: 0;
+    width: 100%;
+    height: 25em;
+    object-fit: cover;
+  }
+}

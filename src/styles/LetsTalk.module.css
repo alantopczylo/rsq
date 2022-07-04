@@ -1,0 +1,151 @@
+.container {
+  padding: 0 105px 157px;
+}
+
+.flextalk {
+  display: flex;
+  justify-content: center;
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.talkleft {
+  flex: 0 0 50%;
+  transition: all ease-in-out 0.3s;
+}
+
+.talkleft:hover {
+  transform: scale(1.05);
+}
+
+.lt {
+  font-size: clamp(3.5em, 4vw, 6em);
+  font-family: "Open Sans", sans-serif;
+  color: #fefefe;
+  font-weight: bold;
+}
+
+.email {
+  font-size: clamp(3.5em, 4vw, 6em);
+  font-family: "Open Sans", sans-serif;
+  color: #e31e3c;
+  font-weight: bold;
+}
+
+.talkright {
+  flex: 0 0 50%;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.socialicons {
+  display: flex;
+  justify-content: flex-end;
+  top: 4em;
+  margin-bottom: 32px;
+}
+
+.social {
+  list-style: none;
+}
+
+.social:not(:last-child) {
+  margin-right: 32px;
+}
+
+.places {
+  display: flex;
+  justify-content: flex-end;
+  color: #808080;
+  font-size: clamp(1.7em, 4vw, 2em);
+  font-family: "Open Sans", sans-serif;
+}
+
+.imgcontainer {
+  display: flex;
+  padding: 0 105px;
+  position: relative;
+}
+
+.footerlink {
+  display: flex;
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+
+.img {
+  width: 100%;
+  height: 10em;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px 10px 0 0;
+  transition: all ease-in-out 0.4s;
+  filter: blur(10px);
+  cursor: pointer;
+}
+
+.img:hover {
+  filter: blur(0);
+}
+
+.footertext {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 15em;
+}
+
+.projects {
+  color: #fefefe;
+  z-index: 1;
+  font-size: clamp(2em, 4vw, 2em);
+  font-family: "Open Sans", sans-serif;
+}
+
+.work {
+  color: #fefefe;
+  z-index: 1;
+  font-size: clamp(2em, 4vw, 2em);
+  font-family: "Open Sans", sans-serif;
+}
+
+@media print, screen and (max-width: 39.99875em) {
+  .container {
+    padding: 0 25px;
+  }
+
+  .flextalk {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .socialicons{
+    justify-content: flex-start;
+    margin-top: 40px;
+  }
+
+  .places{
+    justify-content: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .projects{
+    display: none;
+  }
+
+  .imgcontainer{
+    padding: 0;
+  }
+
+  .img{
+    filter: blur(2px);
+    width: 100%;
+    border-radius: 0;
+  }
+}

@@ -1,13 +1,79 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Open+Sans&display=swap");
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background: #111111;
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+.right {
+  position: relative;
+  transition: transform ease-in-out 0.3s;
+}
+
+.right:hover .arrow {
+  transform: translateX(8px);
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  position: absolute;
+  top: 0%;
+  bottom: 100%;
+  left: 100%;
+  transition: transform ease-in-out 0.3s;
+}
+
+.link {
+  font-size: 2em;
+  color: #fefefe;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: transform ease-in-out 0.4s;
+}
+
+.link:hover {
+  transform: translateX(4px);
+}
+
+section {
+  transition: all ease-in-out 0.3s;
+}
+
+.App:hover section:not(:hover){
+  filter: opacity(30%) blur(4px);
+}
+
+@media print, screen and (max-width: 39.99875em) {
+  .App:hover section:not(:hover){
+    filter: opacity(100%) blur(0px);
+  }
+
+  .customcursor{
+    display: none;
+  }
+
+  *{
+    cursor: auto;
+  }
 }
