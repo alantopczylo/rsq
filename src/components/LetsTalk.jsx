@@ -39,7 +39,7 @@ const LetsTalk = () => {
             <h3 className={styles.projects}>All Projects</h3>
             <span className={styles.work}>Work ></span>
           </div>
-          <img src="./assets/img/footer.jpg" alt="" className={styles.img} />
+          <img src="https://i.postimg.cc/ds3JwzXR/footer.jpg" alt="" className={styles.img} />
         </a>
       </div>
     </>
