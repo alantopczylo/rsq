@@ -5,7 +5,7 @@ import "../index.css";
 const pictures = [
   "assets/img/slide1.jpg",
   "assets/img/slide2.jpeg",
-  "assets/img/slide3.jpeg",
+  "assets/img/slide3.jpg",
   "assets/img/slide4.jpeg",
   "assets/img/slide5.jpeg",
   "assets/img/slide6.jpeg",
