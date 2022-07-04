@@ -3,12 +3,12 @@ import styles from "../styles/Slider.module.css";
 import "../index.css";
 
 const pictures = [
-  "assets/img/slide1.jpg",
-  "assets/img/slide2.jpeg",
-  "assets/img/slide3.jpg",
-  "assets/img/slide4.jpeg",
-  "assets/img/slide5.jpeg",
-  "assets/img/slide6.jpeg",
+  "https://i.postimg.cc/vGgdDrH9/slide1.jpg",
+  "https://i.postimg.cc/gdmd4LNF/slide2.jpg",
+  "https://i.postimg.cc/TRnMJTb3/slide3.jpg",
+  "https://i.postimg.cc/SkK4b0Bg/slide4.jpg",
+  "https://i.postimg.cc/4XDRcYm0/slide5.jpg",
+  "https://i.postimg.cc/54MJhXJz/slide6.jpg",
 ];
 
 let count = 0;
