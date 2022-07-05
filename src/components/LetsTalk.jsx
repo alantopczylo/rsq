@@ -1,5 +1,9 @@
 import React from "react";
 import styles from "../styles/LetsTalk.module.css";
+import instagram from "../assets/img/instagram.svg"
+import twitter from "../assets/img/twitter.svg"
+import linkedin from "../assets/img/linkedin.svg"
+
 
 const LetsTalk = () => {
   return (
@@ -16,13 +20,13 @@ const LetsTalk = () => {
           <div className={styles.talkright}>
             <ul className={styles.socialicons}>
               <li className={styles.social}>
-                <img src="./assets/img/instagram.svg" alt="instagram" />
+                <img src={instagram} alt="instagram" />
               </li>
               <li className={styles.social}>
-                <img src="./assets/img/twitter.svg" alt="instagram" />
+                <img src={twitter} alt="twitter" />
               </li>
               <li className={styles.social}>
-                <img src="./assets/img/linkedin.svg" alt="instagram" />
+                <img src={linkedin} alt="linkedin" />
               </li>
             </ul>
             <ul className={styles.places}>

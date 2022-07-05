@@ -1,0 +1,45 @@
+.container {
+  overflow: hidden;
+}
+
+.sliderContainer {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.sliderBox {
+  padding: 0 105px;
+  min-width: 100%;
+  overflow: hidden;
+  transition: 0.3s ease all;
+  z-index: 100;
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  height: 94em;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all ease-in-out 0.4s;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.img:hover {
+  transform: scale(0.98);
+}
+
+@media print, screen and (max-width: 39.99875em) {
+  .sliderBox {
+    padding: 0;
+    border-radius: 0px;
+  }
+
+  .img {
+    border-radius: 0;
+    width: 100%;
+    height: 25em;
+    object-fit: cover;
+  }
+}

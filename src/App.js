@@ -5,6 +5,7 @@ import LetsTalk from "./components/LetsTalk";
 import NavBar from "./components/NavBar";
 import SelectClients from "./components/SelectClients";
 import Slider from "./components/Slider";
+import SliderShow from "./components/SliderShow";
 import "./index.css";
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
         </section>
 
         <section className="slider">
-          <Slider />
+          {/* <Slider/> */}
+          <SliderShow/>
         </section>
 
         <section className="idea">

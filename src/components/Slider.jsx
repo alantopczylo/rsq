@@ -3,12 +3,12 @@ import styles from "../styles/Slider.module.css";
 import "../index.css";
 
 const pictures = [
-  "./assets/img/slide1.jpg",
-  "./assets/img/slide2.jpeg",
-  "./assets/img/slide3.jpg",
-  "./assets/img/slide4.jpg",
-  "./assets/img/slide5.jpg",
-  "./assets/img/slide6.jpg",
+  "https://rsq.vercel.app/assets/img/slide1.jpg",
+  "https://rsq.vercel.app/assets/img/slide2.jpeg",
+  "https://rsq.vercel.app/assets/img/slide3.jpg",
+  "https://rsq.vercel.app/assets/img/slide4.jpg",
+  "https://rsq.vercel.app/assets/img/slide5.jpg",
+  "https://rsq.vercel.app/assets/img/slide6.jpg",
 ];
 
 let count = 0;
