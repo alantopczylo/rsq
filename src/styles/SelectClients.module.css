@@ -51,6 +51,37 @@
   margin-top: 8.47222vw;
 }
 
+@media print, screen and (min-width: 40em) and (max-width: 63.99875em) {
+  .container{
+    padding: 0 50px;
+  }
+
+  .selectFlex{
+    width: 100%;
+    margin: 0;
+  }
+  
+  .listleft {
+    flex: 0 0 35%;
+  }
+  
+  .listright {
+    flex: 0 0 55%;
+  }
+  
+  .item {
+    line-height: 35px;
+  }
+  .paragraph{
+    width: 85vw;
+    font-weight: 400;
+  }
+
+  .line{
+    width: 85vw;
+  }
+}
+
 @media print, screen and (max-width: 39.99875em) {
   .container {
     padding: 0 25px;

@@ -8,7 +8,8 @@ import linkedin from "../assets/img/linkedin.svg"
 const LetsTalk = () => {
   return (
     <>
-      <footer className={styles.container}>
+      <footer className={styles.container}  data-aos="fade-up"
+          data-aos-duration="600">
         <div className={styles.flextalk}>
           <div className={styles.talkleft}>
             <a href="#" className={styles.link}>

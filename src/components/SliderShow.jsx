@@ -81,7 +81,13 @@ const SliderShow = () => {
   }, []);
 
   return (
-    <div className={styles.container}>
+    <div
+      className={styles.container}
+      data-aos="fade-up"
+      data-aos-easing="ease-in"
+      data-aos-duration="600"
+      data-aos-delay="1400"
+    >
       <div className={styles.sliderContainer} ref={slideshow}>
         <div className={styles.sliderBox}>
           <img src={slide1} alt="slide1" className={styles.img} />

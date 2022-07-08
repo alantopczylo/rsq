@@ -1,6 +1,7 @@
 .container {
   padding: 0 105px;
   margin: 133px 0 8em 0;
+  overflow: hidden;
 }
 
 .small {
@@ -45,6 +46,34 @@
   display: flex;
 }
 
+@media print, screen and (min-width: 40em) and (max-width: 63.99875em) {
+  .container{
+    padding: 0 50px;
+  }
+
+  .small{
+    margin: 0;
+  }
+
+  .title{
+    font-size: 4em;
+    line-height: 60px;
+    font-weight: 800;
+    width: 85vw;
+  }
+
+  .paragraph{
+    width: 85vw;
+    font-size: 2.3em;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  .line{
+    width: 85vw;
+  }
+}
+
 @media print, screen and (max-width: 39.99875em) {
   .container {
     padding: 0 25px;
@@ -63,7 +92,7 @@
   }
 
   .paragraph{
-    line-height: 30px;
+    line-height: 35px;
     width: 100%;
   }
 

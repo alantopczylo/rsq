@@ -10,27 +10,135 @@ const SelectClients = () => {
         </div>
 
         <div className={styles.listleft}>
-          <li className={styles.item}>Cherokee Casinos</li>
-          <li className={styles.item}>Flipboard</li>
-          <li className={styles.item}>Foxwoods</li>
-          <li className={styles.item}>Glanbia Nutritionals</li>
-          <li className={styles.item}>Google</li>
-          <li className={styles.item}>Hard Rock</li>
-          <li className={styles.item}>Hibbett Sports</li>
-          <li className={styles.item}>Hilton Worldwide</li>
-          <li className={styles.item}>Jack Daniel's</li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Cherokee Casinos
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Flipboard
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Foxwoods
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Glanbia Nutritionals
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Google
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Hard Rock
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Hibbett Sports
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Hilton Worldwide
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Jack Daniel's
+          </li>
         </div>
 
         <div className={styles.listright}>
-          <li className={styles.item}>Nescafé</li>
-          <li className={styles.item}>New York Pride</li>
-          <li className={styles.item}>Patreon</li>
-          <li className={styles.item}>Rivers Casino</li>
-          <li className={styles.item}>Snickers</li>
-          <li className={styles.item}>Southern Comfort</li>
-          <li className={styles.item}>The University of Alabama</li>
-          <li className={styles.item}>Twix</li>
-          <li className={styles.item}>Wind Creek Hospitality</li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Nescafé
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            New York Pride
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Patreon
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Rivers Casino
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Snickers
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Southern Comfort
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            The University of Alabama
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Twix
+          </li>
+          <li
+            className={styles.item}
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
+            Wind Creek Hospitality
+          </li>
         </div>
 
         <div className={styles.divider}>

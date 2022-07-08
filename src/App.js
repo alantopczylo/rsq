@@ -4,18 +4,19 @@ import Idea from "./components/Idea";
 import LetsTalk from "./components/LetsTalk";
 import NavBar from "./components/NavBar";
 import SelectClients from "./components/SelectClients";
-import Slider from "./components/Slider";
 import SliderShow from "./components/SliderShow";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import "./index.css";
 
 function App() {
-  
   return (
     <>
-    <div className="customcursor">
+      {/* <div className="customcursor">
     <CustomCursor />
-    </div>
-      
+    </div> */}
+
       <div className="App">
         <section className="navbar">
           <NavBar />
@@ -26,8 +27,7 @@ function App() {
         </section>
 
         <section className="slider">
-          {/* <Slider/> */}
-          <SliderShow/>
+          <SliderShow />
         </section>
 
         <section className="idea">

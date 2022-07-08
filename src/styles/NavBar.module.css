@@ -55,17 +55,20 @@
   transition: transform ease-in-out 0.4s;
 }
 
-
-
 .link:hover {
   transform: translateX(4px);
 }
 
+@media print, screen and (min-width: 40em) and (max-width: 63.99875em) {
+  .container {
+    padding: 72px 50px 0px 50px;
+  }
+
+}
 
 @media print, screen and (max-width: 39.99875em) {
   .container {
     padding: 32px 25px 0px 25px;
-    
   }
 
   .squareContainer {

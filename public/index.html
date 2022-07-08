@@ -11,10 +11,15 @@
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
    
-    -->
+   
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
    
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+
 
     <title>React App</title>
   </head>
@@ -24,16 +29,13 @@
     <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-  $('.navbar').mouseenter(function(){
-  $(this).addClass('blur'); // Blurs each .blur div
-  $(this).addClass('unblur');    // Removes blur from the currently hovered .blur div
-})
-$('.navbar').mouseleave(function(){
-  $(this).addClass('unblur'); // Removes blur from all when none are hovered
-})
-</script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+
+
+              <script>
+              AOS.init()
+              </script>
   
   </body>
 </html>

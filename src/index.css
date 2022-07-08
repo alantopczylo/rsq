@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@400;500;600;700;800&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  cursor: none;
+  /* cursor: none; */
 }
 
 a {
@@ -60,8 +60,18 @@ section {
   transition: all ease-in-out 0.3s;
 }
 
-.App:hover section:not(:hover){
-  filter: opacity(30%) blur(4px);
+.idea{
+  overflow: hidden;
+}
+
+/* .App:hover section:not(:hover){
+  filter: opacity(30%) blur(1px);
+} */
+
+@media print, screen and (min-width: 40em) and (max-width: 63.99875em) {
+  .App:hover section:not(:hover){
+    filter: opacity(100%) blur(0px);
+  }
 }
 
 @media print, screen and (max-width: 39.99875em) {

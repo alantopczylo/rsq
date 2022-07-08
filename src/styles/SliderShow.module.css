@@ -1,5 +1,10 @@
 .container {
   overflow: hidden;
+  transition: transform ease-in-out 0.3s;
+}
+
+.container:hover{
+  transform: scale(0.98);
 }
 
 .sliderContainer {
@@ -16,18 +21,24 @@
   position: relative;
 }
 
+
 .img {
   width: 100%;
   height: 94em;
   object-fit: cover;
   border-radius: 10px;
-  transition: all ease-in-out 0.4s;
   cursor: pointer;
   vertical-align: top;
 }
 
-.img:hover {
-  transform: scale(0.98);
+@media print, screen and (min-width: 40em) and (max-width: 63.99875em) {
+    .sliderBox{
+      padding: 0;
+    }
+
+    .img{
+      height: 45em;
+    }
 }
 
 @media print, screen and (max-width: 39.99875em) {
